@@ -32,5 +32,6 @@ public class Mickey_Mouse {
 		// draw a line between the ovals and set its color
 		g.setColor(Color.BLACK);
 		g.drawLine(90,25,90,40);
+		System.out.println("End of program");
 	} // end main
 } // end class
