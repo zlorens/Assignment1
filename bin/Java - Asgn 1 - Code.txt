@@ -1,0 +1,28 @@
+Java 2 - Data Structures - Assignment #1 - Code
+/*
+************************************************
+Zeke Lorens
+Assignment #1
+Grapic: Mickey Mouse
+************************************************
+*/
+import java.awt.*;
+public class SquareAndOval {
+	public static void main(String[] args) {
+		DrawingPanel panel1 = new DrawingPanel(220,150);
+		panel1.setBackground(Color.YELLOW);
+	Graphics g = panel1.getGraphics();
+		// draw left and right ovals
+		g.setColor(Color.BLUE);
+     g.fillOval(50,25,40,40);		// left oval
+	g.fillOval(130,25,40,40);		// right oval
+	
+     // draw a rectangle
+     g.setColor(Color.RED);
+	g.fillRect(70,45,80,80);
+     
+     // draw a line between the ovals
+     g.setColor(Color.BLACK);
+	g.drawLine(90,25,90,40);
+	} // end main
+} // end class
